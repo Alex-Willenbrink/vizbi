@@ -1,0 +1,18 @@
+{
+  "name": "biojs-vizbi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "combi.js",
+  "dependencies": {
+    "biojs-io-clustal": "0.0.10",
+    "biojs-io-newick": "0.0.5",
+    "biojs-vis-msa": "^0.2.22",
+    "biojs-vis-tree": "git://github.com/daviddao/biojs-vis-tree"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "greenify",
+  "license": "Apache 2"
+}

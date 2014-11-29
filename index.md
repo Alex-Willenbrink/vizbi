@@ -15,16 +15,16 @@ In this course you will learn about tools for visualization of biological data, 
 
 ### Instructors
  [Manuel Corpas]() - TGAC
- [Rafael Jimenez]() -  ELIXIR
+ [Tatyana Goldberg]() -  RostLab
  [David Dao]() - HITS 
- [Iris Shih]() - TUM
  [Sebastian Wilzbach]() -  RostLab
 
-
 ### Logistics
- Location: Training Room 2, South Building, EMBL-EBI
- Date: 5-6 November 2014
 
+tba
+
+<!--
 ### Materials
  [Exercises](https://github.com/daviddao/ebi-exercise)
  [Solutions](https://github.com/daviddao/ebi-exercise-solution)
+-->
