@@ -1,7 +1,7 @@
 ---
 layout: banner
 title: Course
-permalink: /test/
+permalink: /
 order: 1
 no_wrap: 1
 extra_css:
