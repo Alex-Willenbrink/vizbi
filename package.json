@@ -6,7 +6,7 @@
   "dependencies": {
     "biojs-io-clustal": "0.0.10",
     "biojs-io-newick": "0.0.5",
-    "biojs-vis-msa": "^0.2.22",
+    "biojs-vis-msa": "^0.2.40",
     "biojs-vis-tree": "git://github.com/daviddao/biojs-vis-tree"
   },
   "devDependencies": {},
