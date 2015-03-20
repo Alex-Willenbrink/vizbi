@@ -32,8 +32,7 @@ index.html
 <script src="https://wzrd.in/bundle/biojs-io-fasta@latest"></script>
 <textarea id="i1" style="width:80%; height: 200px">
 >sp|Q8VY26|CCD8_ARATH Carotenoid cleavage dioxygenase 8, chloroplastic OS=Arabidopsis thaliana GN=CCD8 PE=1 SV=1
-MASLITTKAMMSHHHVLSSTRITTLYSDNSIGDQQIKTKPQVPHRLFARRIFGVTRAVIN  
-</textarea>
+MASLITTKAMMSHHHVLSSTRITTLYSDNSIGDQQIKTKPQVPHRLFARRIFGVTRAVIN</textarea>
 <p>
 <button id="btn-convert">Convert</button>
 </p>
@@ -56,6 +55,8 @@ function updateBox(){
 i1.addEventListener("change", updateBox);
 btn.addEventListener("click", updateBox);
 ```
+
+<a class="jsbin-embed" href="http://jsbin.com/nazufe/1/embed?js,output&height=350px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
 ### Use NtSeq
 
@@ -91,3 +92,5 @@ function updateBox(){
 i1.addEventListener("change", updateBox);
 btn.addEventListener("click", updateBox);
 ```
+
+<a class="jsbin-embed" href="http://jsbin.com/giqilehito/1/embed?js,output&height=350px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
