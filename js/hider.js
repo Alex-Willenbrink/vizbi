@@ -17,5 +17,11 @@ for(var i = 0, n = els.length; i < els.length; i++){
   // event is in the past
   if(timeDifference < 0){
     el.style.display = "block";
+  } else{
+    el.textContent = "tba";
+    el.style.display = "block";
+    el.addEventListener("click", function(){
+      alert("Materials will be published during the workshop");
+    });
   }
 }

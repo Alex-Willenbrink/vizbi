@@ -1,10 +1,10 @@
 # Site settings
 title: BioJS Workshop
 email: 
-description: "Presented by BioJS 2.0"
+description: "Presented by BioJS"
 baseurl: ""
-url: "http://ebi.biojs.net/"
-github: "biojs/biojs-ebi"
+url: "http://vizbi.biojs.net/"
+github: "biojs-edu/vizbi"
 twitter_username: 
 github_username:  
 
