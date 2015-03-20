@@ -26,7 +26,7 @@ order: 3
 | 16:30 | BioJS component tour: MSA | Sebastian Wilzbach | <a biojs-date="2015-03-24 10:00" href=""> Slides </a>
 | 16:45 | BioJS component tour: Tree | Sebastian Wilzbach | <a biojs-date="2015-03-24 10:00" href=""> Slides </a>
 | 17:00 | Break II | | 
-| 17:15 | BioJS component tour: hands-on | all | <a biojs-date="2015-03-24 10:00" href="{{site.baseurl}}/assignment2""> Materials </a>
+| 17:15 | BioJS component tour: hands-on | all | <a biojs-date="2015-03-24 10:00" href="{{site.baseurl}}/assignment2"> Materials </a>
 | 18:00 | Wrap up | | 
 |---
 
