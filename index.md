@@ -1,28 +1,50 @@
 ---
-layout: page
-title: Course
+layout: page 
+title: BioJS Tutorial
 permalink: /
 order: 1
+extra_css:
+- /css/bootstrap.min.css
+- https://s3-eu-west-1.amazonaws.com/biojs/msa/latest/msa.css
 ---
 
 <img src="{{ site.baseurl }}/assets/i/teaser.png" width="800px;" />
 
-<div class="credits"><a href="http://registry.biojs.net/client/#/detail/biojs-vis-interactions-d3">Protein Interaction Network</a> | <a href="http://edu.biojs.net/demo/treeviewer.html">Phylogenetic Tree</a> | <a href="http://registry.biojs.net/client/#/detail/biojs-vis-circularfv">Circular feature viewer</a></div>
+<div class="credits"><a href="http://biojs.io/d/msa">MSA</a> | <a href="http://biojs.io/d/exelixis">Phylogenetic Tree</a> | <a href="http://biojs.io/d/biojs-vis-circularfv">Circular feature viewer</a></div>
 
-BioJS is a library of biologically driven components that are easy to reuse, maintain and deploy on the web. This workshop aims to introduce the BioJS project and develop skills in the use of BioJS components. We will provide a “hello world” tutorial on creating a BioJS component and contributing to the project community. The second day will involve hackathon to develop new components, or porting existing JavaScript functionality into BioJS 2.0.
 
-In this course you will learn about tools for visualization of biological data, and programming of interactive web-based visualizations for biology using [D3](http://d3js.org/) and [BioJS](http://biojs.net/).
+[BioJS](http://biojs.net) is a community project that collects JavaScript components for visualisation and data manipulation of biologically driven web applications. This tutorial introduces the BioJS project and provides the skills to reuse, create and share BioJS components. 
+
+### Motivation
+
+This tutorial aims to introduce the BioJS project and to develop the necessary skills to reuse and create BioJS components. A hands on “hello world” example is given as a taster on how to create a BioJS component and become part of our growing community.
+
+### Audience
+
+This tutorial is designed for bioinformaticians and developers interested in presenting biological information on the web. The tutorial can be followed without knowledge of JavaScript, but basic programming experience is highly recommended for participants.
+
+### Learning objectives
+
+After this course participants will be able to:
+• Review approaches for data processing on the web
+• Utilise BioJS components and the BioJS registry
+• Apply basic BioJS concepts for data visualisation on the web
+• Develop new BioJS components for own work
 
 ### Instructors
- [Manuel Corpas]() - TGAC
- [David Dao]() - HITS 
- [Iris Shih]() - TUM
- [Sebastian Wilzbach]() -  RostLab
 
+ [David Dao](http://daviddao.de) - HITS 
+ [Guy Yachdach](https://www.linkedin.com/in/gyachdav) -  RostLab
+ [Manuel Corpas](http://manuelcorpas.com) - TGAC
+ [Sebastian Wilzbach](http://seb.wilzba.ch) -  RostLab
+ [Tatyana Goldberg](https://rostlab.org/~goldberg) -  RostLab
 
 ### Logistics
- Announced soon
 
-### Materials
- [Exercises](https://github.com/daviddao/ebi-exercise)
- [Solutions](https://github.com/daviddao/ebi-exercise-solution)
+Tuesday, March 24, 2015: 2:30 p.m. - 6:00 p.m.
+
+Broad Institute
+415 Main Street
+Cambridge, MA 02142
+
+<!--<script src="{{ '/js/dist/combi.js' | prepend: site.baseurl }}"></script>-->

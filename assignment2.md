@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Assignment2
-permalink: /assignment2/
-order: 5
 ---
 
 [List of projects](https://docs.google.com/document/d/1hlEFs-xdYxslWkx-fOQLsASscMLaKeqvnvgANCTJ0Z8/edit)
@@ -23,3 +21,17 @@ on the most famous program in bioinformatics - BLAST ([> 105k citations!](http:/
 ### Implementations
 
 (fork this page and add your project to this list)
+=======
+Resources
+---------
+
+### Use the MSA 
+
+```
+var msa  = require("msa");
+var m = new msa({el: document.body});
+m.u.file.importURL("https://raw.githubusercontent.com/greenify/biojs-io-fasta/master/test/foo.fasta", function(){
+    m.render();
+});
+```
+
