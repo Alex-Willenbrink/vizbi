@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Assignment 2
+title: Assignment2
 permalink: /assignment2/
-order: 5
 ---
+
 
 Resources
 ---------
