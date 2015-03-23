@@ -43,3 +43,19 @@ https://github.com/biojs-edu/vizbi-biojs
 ```
 
 <img src="{{ site.baseurl}}/screenies/cloud9_3_select_project.jpg" />
+
+5) Start editing
+-----------------
+
+<img src="{{ site.baseurl}}/screenies/cloud9_5_start_editing.jpg" />
+
+6) Source `start.sh`
+-----------------
+
+Run the following command in your terminal 
+
+```
+source start.sh
+```
+
+<img src="{{ site.baseurl}}/screenies/cloud9_6_start.jpg" />
