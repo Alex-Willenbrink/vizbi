@@ -10,12 +10,19 @@ var els = document.querySelectorAll('[biojs-date]');
 var currentDate = new Date();
 currentDate = new Date(currentDate.valueOf() + currentDate.getTimezoneOffset() * 60000);
 
+function getURLParameter(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+}
+
+var isCheating = getURLParameter("cheating");
+
 for(var i = 0, n = els.length; i < els.length; i++){
 	var el = els[i];
 	var bDate = Date.parse(el.getAttribute('biojs-date')) + (timezoneOffset * 1000);
 	var timeDifference = bDate - currentDate.getTime();
   // event is in the past
-  if(timeDifference < 0){
+  var showLink = timeDifference < 0 || isCheating;
+  if(showLink){
     el.style.display = "block";
   } else{
     el.textContent = "tba";
