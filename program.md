@@ -21,7 +21,7 @@ order: 3
 | 15:25 | Tech recap: Questions | | 
 | 15:30 | Break I | | 
 | 15:45 | Develop a hello world example: introduction | Tatyana Goldberg | <a biojs-date="2015-03-24 10:45" href="https://www.npmjs.com/package/looker-on "> Materials </a>
-| 16:05 | Develop a hello world example: information | David Dao  or Sebastian Wilzbach | <a biojs-date="2015-03-24 10:45" href="{{site.baseurl}}/assignment1"> Materials </a>
+| 16:05 | Develop a hello world example: information | Sebastian Wilzbach | <span biojs-date="2015-03-24 10:45"> <a href="https://biojs-edu.github.io/vizbi-exercise1/"> Slides </a> <br> <a biojs-date="2015-03-24 10:45" href="{{site.baseurl}}/assignment1"> Materials </a> </span>
 | 16:10 | Develop a hello world example: hands-on | all | <a biojs-date="2015-03-24 11:00" href="{{site.baseurl}}/assignment1"> Materials </a>
 | 16:30 | BioJS component tour: MSA | Sebastian Wilzbach | <a biojs-date="2015-03-24 11:15" href="https://github.com/greenify/msa"> Materials </a>
 | 16:45 | BioJS component tour: Tree | David Dao| <a biojs-date="2015-03-24 11:30" href="http://biojs.io/d/exelixis"> Materials </a>

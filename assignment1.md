@@ -5,58 +5,8 @@ permalink: /assignment1/
 order: 5
 ---
 
-API guides
-----------
-
-### Parser
-
-tbd
-
-[https://github.com/biojs/biojs-io-parser](https://github.com/biojs/biojs-io-parser)
-
-### NtSeq 
-
-tbd
-
-[https://github.com/keithwhor/NtSeq](https://github.com/keithwhor/NtSeq)
-
 Resources
 ---------
-
-### Use a parser
-
-index.html
-
-```
-<meta charset="UTF-8">
-<script src="https://wzrd.in/bundle/biojs-io-fasta@latest"></script>
-<textarea id="i1" style="width:80%; height: 200px">
->sp|Q8VY26|CCD8_ARATH Carotenoid cleavage dioxygenase 8, chloroplastic OS=Arabidopsis thaliana GN=CCD8 PE=1 SV=1
-MASLITTKAMMSHHHVLSSTRITTLYSDNSIGDQQIKTKPQVPHRLFARRIFGVTRAVIN</textarea>
-<p>
-<button id="btn-convert">Convert</button>
-</p>
-<textarea id="i2" style="width:80%; height: 200px"></textarea>
-```
-
-index.js
-
-```
-var parser = require("biojs-io-fasta");
-
-var i1 = document.getElementById("i1");
-var i2 = document.getElementById("i2");
-var btn = document.getElementById("btn-convert");
-
-function updateBox(){
-  i2.value = JSON.stringify(parser.parse(i1.value));
-}
-
-i1.addEventListener("change", updateBox);
-btn.addEventListener("click", updateBox);
-```
-
-<a class="jsbin-embed" href="http://jsbin.com/nazufe/1/embed?js,output&height=350px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
 ### Use NtSeq
 
@@ -64,14 +14,14 @@ index.html
 
 ```
 <meta charset="UTF-8">
-<script src="https://wzrd.in/bundle/ntseq@latest"></script>
-<textarea id="i1">
+<script src="bundle.js"></script>
+<textarea id="txt-input">
 AAACCTTTTAAAAA
 </textarea>
 <p>
 <button id="btn-convert">Convert</button>
 </p>
-<textarea id="i2"></textarea>
+<textarea id="txt-output"></textarea>
 ```
 
 index.js
@@ -79,18 +29,54 @@ index.js
 ```
 var nt = require("ntseq");
 
-var i1 = document.getElementById("i1");
-var i2 = document.getElementById("i2");
+var input = document.getElementById("txt-input");
+var output = document.getElementById("txt-output");
 var btn = document.getElementById("btn-convert");
 
 function updateBox(){
   var seq = new nt.Seq();
-  seq.read(i1.value);
-  i2.value =  seq.translate();
+  seq.read(input.value);
+  output.value =  seq.translate();
 }
 
-i1.addEventListener("change", updateBox);
+input.addEventListener("change", updateBox);
 btn.addEventListener("click", updateBox);
 ```
 
-<a class="jsbin-embed" href="http://jsbin.com/giqilehito/1/embed?js,output&height=350px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+<a class="jsbin-embed" href="http://jsbin.com/titiyu/1/embed?js,output&height=350px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+
+### Use a parser
+
+index.html
+
+```
+<meta charset="UTF-8">
+<script src="bundle.js"></script>
+<textarea id="txt-output" style="width:80%; height: 200px">
+>sp|Q8VY26|CCD8_ARATH Carotenoid cleavage dioxygenase 8, chloroplastic OS=Arabidopsis thaliana GN=CCD8 PE=1 SV=1
+MASLITTKAMMSHHHVLSSTRITTLYSDNSIGDQQIKTKPQVPHRLFARRIFGVTRAVIN</textarea>
+<p>
+<button id="btn-convert">Convert</button>
+</p>
+<textarea id="txt-output" style="width:80%; height: 200px"></textarea>
+```
+
+index.js
+
+```
+var parser = require("biojs-io-fasta");
+
+var input = document.getElementById("txt-input");
+var output = document.getElementById("txt-output");
+var btn = document.getElementById("btn-convert");
+
+function updateBox(){
+  i2.value = JSON.stringify(parser.parse(i1.value));
+}
+
+input.addEventListener("change", updateBox);
+btn.addEventListener("click", updateBox);
+```
+
+<a class="jsbin-embed" href="http://jsbin.com/nazufe/2/embed?js,output&height=350px">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+
