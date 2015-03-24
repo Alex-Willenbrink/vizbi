@@ -9,14 +9,18 @@ var els = document.querySelectorAll('[biojs-date]');
 // use GMT time in JS (new Date returns local time)
 var currentDate = new Date();
 // works too, but not so easy to understand
-// currentDate = new Date(currentDate.valueOf() + currentDate.getTimezoneOffset() * 60000);
-currentDate = new Date(currentDate.getUTCFullYear(), currentDate.getUTCMonth(), currentDate.getUTCDate(),  currentDate.getUTCHours(), currentDate.getUTCMinutes(), currentDate.getUTCSeconds());
+currentDate = new Date(currentDate.valueOf() + currentDate.getTimezoneOffset() * 60000);
+//currentDate = new Date(currentDate.getUTCFullYear(), currentDate.getUTCMonth(), currentDate.getUTCDate(),  currentDate.getUTCHours(), currentDate.getUTCMinutes(), currentDate.getUTCSeconds());
 
 function getURLParameter(name) {
   return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
 }
 
 var isCheating = getURLParameter("cheating");
+var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+if(!is_chrome){
+  isCheating = 1;
+}
 
 for(var i = 0, n = els.length; i < els.length; i++){
 	var el = els[i];
