@@ -607,3 +607,20 @@ a:visited {
     clear: both;
     width: auto;
     margin: 0 0 15px; } }
+
+
+#improve-me {
+    float: right;
+    margin-right: 70px;
+}
+
+#improve-me a {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    #improve-me {
+        display: none;
+    }
+}
