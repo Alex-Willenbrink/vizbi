@@ -8,7 +8,9 @@ var els = document.querySelectorAll('[biojs-date]');
 
 // use GMT time in JS (new Date returns local time)
 var currentDate = new Date();
-currentDate = new Date(currentDate.valueOf() + currentDate.getTimezoneOffset() * 60000);
+// works too, but not so easy to understand
+// currentDate = new Date(currentDate.valueOf() + currentDate.getTimezoneOffset() * 60000);
+currentDate = new Date(currentDate.getUTCFullYear(), currentDate.getUTCMonth(), currentDate.getUTCDate(),  currentDate.getUTCHours(), currentDate.getUTCMinutes(), currentDate.getUTCSeconds());
 
 function getURLParameter(name) {
   return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null

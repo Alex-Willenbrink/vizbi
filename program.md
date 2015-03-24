@@ -14,19 +14,19 @@ order: 3
 |---
 | Time | Subject | Trainer | Materials 
 |-|:-|:-|:-:
-| 14:30 | Introduction | Tatyana Goldberg | <a biojs-date="2015-03-24 09:30" href="https://docs.google.com/presentation/d/1OavaT0UFiDTQYXlTDpBk-HaATdG-2SY3AP0miNNEJl8/edit"> Slides </a>
-| 14:45 | What is BioJS? | Guy Yachdav | <a biojs-date="2015-03-24 09:45" href="https://docs.google.com/presentation/d/1Xa3COnA-lqDvXVkRwhTSlQVsioaFXhJHamnrRIRwy2c/edit"> Slides </a>
-| 15:05 | Tech recap: Building a website (HTML, CSS, JS) | David Dao | <a biojs-date="2015-03-24 10:00" href="http://slides.biojs.net/ebi-tech-fundamentals-2/"> Slides </a>
-| 15:15 | Tech recap: Managing JS code (NPM, Browserify) | Sebastian Wilzbach | <a biojs-date="2015-03-24 10:00" href="https://greenify.github.io/node-intro/#/"> Slides </a>
+| 14:30 | Introduction | Tatyana Goldberg | <a biojs-date="2015-03-24 19:30" href="https://docs.google.com/presentation/d/1OavaT0UFiDTQYXlTDpBk-HaATdG-2SY3AP0miNNEJl8/edit"> Slides </a>
+| 14:45 | What is BioJS? | Guy Yachdav | <a biojs-date="2015-03-24 19:45" href="https://docs.google.com/presentation/d/1Xa3COnA-lqDvXVkRwhTSlQVsioaFXhJHamnrRIRwy2c/edit"> Slides </a>
+| 15:05 | Tech recap: Building a website (HTML, CSS, JS) | David Dao | <a biojs-date="2015-03-24 20:00" href="https://biojs-edu.github.io/vizbi-html-recap"> Slides </a>
+| 15:15 | Tech recap: Managing JS code (NPM, Browserify) | Sebastian Wilzbach | <a biojs-date="2015-03-24 20:00" href="https://greenify.github.io/node-intro/#/"> Slides </a>
 | 15:25 | Tech recap: Questions | | 
 | 15:30 | Break I | | 
-| 15:45 | Develop a hello world example: introduction | Tatyana Goldberg | <a biojs-date="2015-03-24 10:45" href="https://www.npmjs.com/package/looker-on "> Materials </a>
-| 16:05 | Develop a hello world example: information | Sebastian Wilzbach | <span biojs-date="2015-03-24 10:45"> <a href="https://biojs-edu.github.io/vizbi-exercise1/"> Slides </a> <br> <a biojs-date="2015-03-24 10:45" href="{{site.baseurl}}/assignment1"> Materials </a> </span>
-| 16:10 | Develop a hello world example: hands-on | all | <a biojs-date="2015-03-24 11:00" href="{{site.baseurl}}/assignment1"> Materials </a>
-| 16:30 | BioJS component tour: MSA | Sebastian Wilzbach | <a biojs-date="2015-03-24 11:15" href="https://github.com/greenify/msa"> Materials </a>
-| 16:45 | BioJS component tour: Tree | David Dao| <a biojs-date="2015-03-24 11:30" href="http://biojs.io/d/exelixis"> Materials </a>
+| 15:45 | Develop a hello world example: introduction | Tatyana Goldberg | <a biojs-date="2015-03-24 20:45" href="https://www.npmjs.com/package/looker-on "> Materials </a>
+| 16:05 | Develop a hello world example: information | Sebastian Wilzbach | <span biojs-date="2015-03-24 20:45"> <a href="https://biojs-edu.github.io/vizbi-exercise1/"> Slides </a> <br> <a biojs-date="2015-03-24 20:45" href="{{site.baseurl}}/assignment1"> Materials </a> </span>
+| 16:10 | Develop a hello world example: hands-on | all | <a biojs-date="2015-03-24 21:00" href="{{site.baseurl}}/assignment1"> Materials </a>
+| 16:30 | BioJS component tour: MSA | Sebastian Wilzbach | <a biojs-date="2015-03-24 21:15" href="https://github.com/greenify/msa"> Materials </a>
+| 16:45 | BioJS component tour: Tree | David Dao| <a biojs-date="2015-03-24 21:30" href="http://biojs.io/d/exelixis"> Materials </a>
 | 17:00 | Break II | | 
-| 17:15 | BioJS component tour: hands-on | all | <a biojs-date="2015-03-24 12:00" href="{{site.baseurl}}/assignment2"> Materials </a>
+| 17:15 | BioJS component tour: hands-on | all | <a biojs-date="2015-03-24 22:00" href="{{site.baseurl}}/assignment2"> Materials </a>
 | 18:00 | Wrap up | | 
 |---
 
