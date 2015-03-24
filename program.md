@@ -30,6 +30,6 @@ order: 3
 | 18:00 | Wrap up | | 
 |---
 
-[Send feedback](https://docs.google.com/forms/d/1_jwyoP7gYV8e_tlqfd2hywHXTpgaY7bl1UJ3ZDrcNuM/viewform)
+[Send feedback](https://docs.google.com/forms/d/1_jwyoP7gYV8e_tlqfd2hywHXTpgaY7bl1UJ3ZDrcNuM/)
 
 <script src="{{ baseurl }}/js/hider.js"></script>
