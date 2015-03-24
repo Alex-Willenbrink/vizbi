@@ -8,9 +8,9 @@ extra_css:
 - https://s3-eu-west-1.amazonaws.com/biojs/msa/latest/msa.css
 ---
 
-<img src="{{ site.baseurl }}/assets/i/teaser.png" width="800px;" />
+<img src="{{ site.baseurl }}/assets/i/teaser.png" style="max-width: 800px;" />
 
-<div class="credits"><a href="http://biojs.io/d/msa">SequenceLogo</a> | <a href="http://biojs.io/d/msa">MSA</a> | <a href="http://biojs.io/d/exelixis">Tree Viewer</a></div>
+<div class="credits"><a href="http://biojs.io/d/http://biojs.io/d/biojs-vis-seqlogo">SequenceLogo</a> | <a href="http://biojs.io/d/msa">MSA</a> | <a href="http://biojs.io/d/exelixis">Tree Viewer</a></div>
 
 
 [BioJS](http://biojs.net) is a community project that collects JavaScript components for visualisation and data manipulation of biologically driven web applications. This tutorial introduces the BioJS project and provides the skills to reuse, create and share BioJS components. 
