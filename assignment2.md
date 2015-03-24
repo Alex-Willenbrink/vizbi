@@ -10,6 +10,10 @@ Resources
 
 ### Use the MSA 
 
+<img src="{{ site.baseurl}}/screenies/msa.jpg" />
+
+Minimal example:
+
 ```
 var msa = require("msa");
 var opts = {
@@ -23,9 +27,56 @@ var m = new msa(opts);
 * [Demos](http://biojs.io/d/msa)
 * [Documentation](https://github.com/greenify/msa)
 
+A more extended example:
+
+
+```
+var rootDiv = document.getElementById('snippetDiv'); // the root element for the MSA
+var msa = require("msa");
+
+// create a msa viewer and a menu bar
+var menuDiv = document.createElement('div');
+var msaDiv = document.createElement('div');
+rootDiv.appendChild(menuDiv);
+rootDiv.appendChild(msaDiv);
+
+var url = "https://cdn.rawgit.com/greenify/msa/master/snippets/data/fer1.clustal";
+var opts = {
+  el: msaDiv
+  conf: {
+  	dropImport: true // allow to import sequences via drag & drop
+  },
+  vis: {
+  	conserv: false,
+  	overviewbox: false,
+  	seqlogo: true,
+  	metacell: true
+  },
+  zoomer: {
+	labelIdLength: 20
+  }
+};
+
+// init msa
+var m = msa(opts);
+
+m.u.file.importURL(url, function() {
+  m.g.zoomer.autoHeight(1000); // auto calcs the height from the sequences (with a cut-off)
+  m.render();
+
+  // the menu is independent to the MSA container
+  var defMenu = new msa.menu.defaultmenu({
+    el: menuDiv,
+    msa: m
+  });
+  defMenu.render();
+});
+```
+
+
 ### Use the Tree viewer
 
-<img src="{{ site.baseurl}}/screenies/tree.png" />
+<img src="{{ site.baseurl}}/screenies/tree.jpg" />
 
 Minimal example: 
 
