@@ -29,6 +29,7 @@ for(var i = 0, n = els.length; i < els.length; i++){
   } else{
     el.textContent = "tba";
     el.style.display = "block";
+    el.href = "#";
     el.addEventListener("click", function(){
       alert("Materials will be published during the workshop");
     });
