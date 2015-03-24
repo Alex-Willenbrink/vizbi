@@ -15,8 +15,9 @@ order: 5
 }
 </style>
 
+[Cloud9](https://c9.io) is a powerful online development environment - it is free for public workspaces.
 
-1) Login into Cloud9
+1) Login into [Cloud9](https://c9.io/)
 --------------------
 
 Login via Github or create an account.
@@ -28,7 +29,7 @@ Login via Github or create an account.
 
 <img src="{{ site.baseurl}}/screenies/cloud9_1.jpg" />
 
-3) Select: "clone from URL"
+3) Select "clone from URL"
 -----------------
 
 <img src="{{ site.baseurl}}/screenies/cloud9_2_create_a_new.jpg" />
@@ -44,8 +45,12 @@ https://github.com/biojs-edu/vizbi-biojs
 
 <img src="{{ site.baseurl}}/screenies/cloud9_3_select_project.jpg" />
 
+and press "create".
+
 5) Start editing
 -----------------
+
+It might take a bit to clone our workspace. Once it is done you can click on "start editing" to open your workspace.
 
 <img src="{{ site.baseurl}}/screenies/cloud9_5_start_editing.jpg" />
 
