@@ -21,6 +21,7 @@ var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 if(!is_chrome){
   isCheating = 1;
 }
+  isCheating = 1;
 
 for(var i = 0, n = els.length; i < els.length; i++){
 	var el = els[i];
